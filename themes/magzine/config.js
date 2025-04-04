@@ -12,6 +12,13 @@ const CONFIG = {
     '通过数据驱动的分析，洞察行业趋势，启发商业决策。。',
   MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
 
+
+ // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
+  MAGZINE_RECOMMEND_POST_TAG: '技术',
+  MAGZINE_RECOMMEND_POST_COUNT: 6,
+  MAGZINE_RECOMMEND_POST_TITLE: '技术文章',
+  MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   MAGZINE_RECOMMEND_POST_TAG: '推荐',
   MAGZINE_RECOMMEND_POST_COUNT: 6,
